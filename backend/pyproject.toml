@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "hackathon-labai-gemini"
+version = "0.1.0"
+description = ""
+authors = ["llermaly <gllermaly@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<3.12"
+llama-index = "^0.9.16.post1"
+python-dotenv = "^1.0.0"
+streamlit = "^1.29.0"
+google-generativeai = "^0.3.1"
+llama-hub = "^0.0.60"
+youtube-transcript-api = "^0.6.1"
+fastapi = "^0.105.0"
+uvicorn = "^0.24.0.post1"
+google-cloud-aiplatform = "^1.38.1"
+yt-dlp = "^2023.11.16"
+ffmpeg = "^1.4"
+ffmpeg-python = "^0.2.0"
+trulens-eval = "^0.19.2"
+ipython = "^8.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
